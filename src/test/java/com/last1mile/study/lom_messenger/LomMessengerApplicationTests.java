@@ -1,4 +1,4 @@
-package com.example.lom_messenger;
+package com.last1mile.study.lom_messenger;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
