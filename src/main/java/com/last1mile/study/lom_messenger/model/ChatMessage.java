@@ -14,7 +14,7 @@ import java.util.Date;
 @ToString
 public class ChatMessage {
 
-    private Long id;
+    //private Long id;
 
     // Chatroom 객체 id
     private Long chatroomId;
@@ -26,14 +26,18 @@ public class ChatMessage {
     // 메세지 보낸 시각
     private Date time;
 
+
+
     // 메세지 내용
     private String text;
 
     // 메세지 타읿 (CHAT,JOIN,LEAVE)
     private MessageType type;
 
+    //임시 필드
+    private String sender;
     // FIXME Date 쓰면 안됨
-    private Date createdAt;
-    private Date updatedAt;
+    //private Date createdAt;
+    //private Date updatedAt;
 
 }
